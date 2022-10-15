@@ -1,0 +1,36 @@
+.modal-wrapper {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.modal-wrapper.opened {
+  visibility: visible;
+}
+
+.modal {
+  padding: 20px;
+  background-color: #202124;
+  overflow-y: auto;
+}
+
+.modal p {
+  margin: 0;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-actions button {
+  width: 45% !important;
+}

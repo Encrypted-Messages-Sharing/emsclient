@@ -1,0 +1,114 @@
+.hub-pick {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hub-pick-block {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hub-pick-block h3 {
+  margin-top: 0;
+}
+
+.remember-hub {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.remember-hub > div {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remember-hub > div.selected > div {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(21, 175, 88);
+}
+
+.remembered-hubs-list {
+  width: 100%;
+  background-color: #121315;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.remembered-hubs-list-header {
+  background-color: #0c0c0e;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.remembered-hubs-list-body {
+  padding: 10px;
+}
+
+.remembered-hubs-list-body > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.list-hub-join-button {
+  font-size: 13px;
+  background-color: rgb(21, 175, 88);
+  padding: 4px 7px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.list-hub-delete-button {
+  font-size: 13px;
+  background-color: rgb(233, 55, 55);;
+  padding: 4px 7px;
+  cursor: pointer;
+  margin-left: 5px;
+  user-select: none;
+}
+
+.list-hub {
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
+  padding-right: 10px;
+}
+
+.list-hub-actions {
+  display: flex;
+}
+
+.tor-net {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  background-color: rgb(110, 110, 110);
+  padding: 5px 20px;
+}
+
+.tor-net.active {
+  /* background-color: rgb(21, 175, 88); */
+  background-color: rgb(98, 20, 98);
+}
+
+.tor-net img {
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+}

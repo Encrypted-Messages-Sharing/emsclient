@@ -1,0 +1,21 @@
+.send-message-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.send-message-inputs textarea {
+  margin-bottom: 10px;
+}
+
+.send-message-inputs > input {
+  margin-bottom: 10px;
+}
+
+.send-message-inputs > div {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.send-message-key-input-block {
+  display: flex;
+}
